@@ -4,7 +4,7 @@ This is a preliminary implementation of the paper "Xolver: Multi-Agent Reasoning
 
 [Md. Tanzib Hosain](https://scholar.google.com/citations?user=3YexY9gAAAAJ&hl=en),
 [Salman Rahman](https://scholar.google.com/citations?user=vr7uTc8AAAAJ&hl=en&oi=ao),
-[Md Kishor Morol](https://scholar.google.com/citations?user=pjn3jg4AAAAJ&hl=en),
+[Md. Kishor Morol](https://scholar.google.com/citations?user=pjn3jg4AAAAJ&hl=en),
 [Md Rizwan Parvez](https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en),
 
 ## Running experiments
