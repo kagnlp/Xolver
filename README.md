@@ -46,10 +46,10 @@ To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
 
  You can download the LiveCodeBench dataset [here](https://huggingface.co/datasets/livecodebench/code_generation)
 
-**Math external retrieval**
+**Math Retrieval**
 
 You can download the math external retrieval corpus [here](https://huggingface.co/datasets/nvidia/OpenMathReasoning)
 
-**Code external retrieval**
+**Code Retrieval**
 
 You can download the code external retrieval corpus [here](https://github.com/kraritt/Xolver/blob/main/lcb/episodic_memory.json)
