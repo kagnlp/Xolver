@@ -1,6 +1,6 @@
 # Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team
 
-### [Project Page](https://kagnlp.github.io/xolver.github.io/) | [Paper]() 
+### [Project Page](https://kagnlp.github.io/xolver.github.io/) | [Paper]()
 
 This is a preliminary implementation of the paper "Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team". More tasks and settings will be released soon. You may see some additional Xolver logs [here](https://drive.google.com/drive/folders/1O-KYcgQcEniIGfxbUcQjyZLjAzUJkr0s?usp=sharing).
 
@@ -15,6 +15,10 @@ To clone the project, run:
 
 	git clone https://github.com/kagnlp/Xolver && cd Xolver
 
+ To prepare a new conda or python virtual environment, run:
+ 
+	pip install -r requirements.txt
+
 The code for running GSM, AIME, MATH and LiveCodeBench tasks may be found in the following subfolders
 
 * ./gsm/ contains code for running GSM
@@ -22,28 +26,29 @@ The code for running GSM, AIME, MATH and LiveCodeBench tasks may be found in the
 * ./math/ contains code for running MATH
 * ./lcb/ contains code for running LiveCodeBench results
 
-To prepare a new conda or python virtual environment, run:
-	`pip install -r requirements.txt`
-
 **GSM:**
 
 To generate and evaluated answer for GSM problems through Xolver, run:
-	`python gsm/gsm.py`
+
+	cd ./gsm python gsm.py
 
  **AIME:**
 
 To generate and evaluated answer for AIME problems through Xolver, run:
-	`python aime/aime.py`
+
+	cd ./aime python aime.py
 
 **MATH:**
 
 To generate and evaluated answer for MATH problems through Xolver, run:
-	`python math/math.py`
+
+	cd ./math python math.py
 
  **LiveCodeBench:**
 
 To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
-	`python lcb/lcb.py`
+
+	cd ./lcb python lcb.py
 
 If you would like to cite the paper, here is a bibtex file:
 ```
