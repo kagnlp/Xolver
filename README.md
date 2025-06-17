@@ -50,6 +50,12 @@ To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
 
 	cd ./lcb python lcb.py
 
+ **Without Memory**
+ 
+ To generate and evaluated answer for tasks through Xolver without memory, remove episodic memory and run similarly:
+
+ 	cd ./task python task.py
+
 If you would like to cite the paper, here is a bibtex file:
 ```
 @article{hosain2025xolver,
