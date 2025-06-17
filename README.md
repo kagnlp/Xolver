@@ -13,7 +13,7 @@ This is a preliminary implementation of the paper "Xolver: Multi-Agent Reasoning
 
 To clone the project, run:
 
-	git clone https://github.com/kraritt/Xolver && cd Xolver
+	git clone https://github.com/kagnlp/Xolver && cd Xolver
 
 The code for running GSM, AIME, MATH and LiveCodeBench tasks may be found in the following subfolders
 
