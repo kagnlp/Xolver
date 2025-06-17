@@ -10,6 +10,7 @@ from typing import List, Dict, Any
 from rank_bm25 import BM25Okapi
 import nltk
 from nltk.tokenize import word_tokenize
+from datasets import load_dataset
 
 nltk.download('punkt')
 try:
