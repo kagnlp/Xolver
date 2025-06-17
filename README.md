@@ -46,4 +46,15 @@ To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
 
  You can download the LiveCodeBench dataset [here](https://huggingface.co/datasets/livecodebench/code_generation)
 
+
 You can download the math external retrieval corpus [here](https://huggingface.co/datasets/nvidia/OpenMathReasoning) and the code external retrieval corpus [here](https://github.com/kraritt/Xolver/blob/main/lcb/episodic_memory.json)
+
+If you would like to cite the paper, here is a bibtex file:
+```
+@article{hosain2025xolver,
+      title={𝕏olver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team}, 
+      author={Md Tanzib Hosain and Salman Rahman and Md Kishor Morol and Md Rizwan Parvez},
+      journal={arXiv preprint},
+      year={2025}
+}
+```
