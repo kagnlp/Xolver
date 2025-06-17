@@ -6,17 +6,24 @@ This is a preliminary implementation of the paper "Xolver: Multi-Agent Reasoning
 
 [Md Tanzib Hosain](https://scholar.google.com/citations?user=3YexY9gAAAAJ&hl=en),
 [Salman Rahman](https://scholar.google.com/citations?user=vr7uTc8AAAAJ&hl=en&oi=ao),
-[Md. Kishor Morol](https://scholar.google.com/citations?user=pjn3jg4AAAAJ&hl=en),
+[Md Kishor Morol](https://scholar.google.com/citations?user=pjn3jg4AAAAJ&hl=en),
 [Md Rizwan Parvez](https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en)
 
-## Running experiments
+## Running Project
+
+To clone the project, run:
+
+	`git clone https://github.com/kraritt/Xolver && cd Xolver`
 
 The code for running GSM, AIME, MATH and LiveCodeBench tasks may be found in the following subfolders
 
 * ./gsm/ contains code for running GSM
 * ./aime/ contains code for running AIME
 * ./math/ contains code for running MATH
-* ./lcb/ contains code for running LiveCodeBench results.
+* ./lcb/ contains code for running LiveCodeBench results
+
+To create a new conda or python virtual environment, run:
+	`pip install -r requirements.txt`
 
 **GSM:**
 
