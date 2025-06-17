@@ -22,7 +22,7 @@ The code for running GSM, AIME, MATH and LiveCodeBench tasks may be found in the
 * ./math/ contains code for running MATH
 * ./lcb/ contains code for running LiveCodeBench results
 
-To create a new conda or python virtual environment, run:
+To prepare a new conda or python virtual environment, run:
 	`pip install -r requirements.txt`
 
 **GSM:**
@@ -54,7 +54,7 @@ To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
  You can download the LiveCodeBench dataset [here](https://huggingface.co/datasets/livecodebench/code_generation)
 
 
-You can download the math external retrieval corpus [here](https://huggingface.co/datasets/nvidia/OpenMathReasoning) and the code external retrieval corpus [here](https://github.com/kraritt/Xolver/blob/main/lcb/episodic_memory.json)
+You can download the math external retrieval corpus [here](https://huggingface.co/datasets/nvidia/OpenMathReasoning) and the code external retrieval corpus [here](https://huggingface.co/datasets/krarit/retrivcod)
 
 If you would like to cite the paper, here is a bibtex file:
 ```
