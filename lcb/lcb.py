@@ -22,7 +22,7 @@ except LookupError:
     nltk.download('punkt_tab') 
 
 test = load_dataset("livecodebench/code_generation")
-episodic_memory = load_dataset("krarit/retrivcod")
+episodic_memory = load_dataset("kagnlp/retrivcod")
 
 # ========== PROMPT TEMPLATES ==========
 PLANNER_PROMPT = """
