@@ -12,6 +12,7 @@ from typing import List, Dict, Any
 from rank_bm25 import BM25Okapi
 import nltk
 from nltk.tokenize import word_tokenize
+from datasets import load_dataset
 
 nltk.download('punkt')
 try:
@@ -19,6 +20,9 @@ try:
 except LookupError:
     print("Downloading 'punkt_tab' resource for NLTK...")
     nltk.download('punkt_tab') 
+
+test = load_dataset("livecodebench/code_generation")
+episodic_memory = load_dataset("krarit/retrivcod")
 
 # ========== PROMPT TEMPLATES ==========
 PLANNER_PROMPT = """
