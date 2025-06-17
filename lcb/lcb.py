@@ -13,6 +13,13 @@ from rank_bm25 import BM25Okapi
 import nltk
 from nltk.tokenize import word_tokenize
 
+nltk.download('punkt')
+try:
+    nltk.data.find('tokenizers/punkt_tab/english/')
+except LookupError:
+    print("Downloading 'punkt_tab' resource for NLTK...")
+    nltk.download('punkt_tab')
+
 # ========== PROMPT TEMPLATES ==========
 PLANNER_PROMPT = """
 You are a planner to solve a {task_type} problem. Here is the problem for which you have to plan:
