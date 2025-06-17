@@ -19,28 +19,28 @@ The code for running GSM, AIME, MATH and LiveCodeBench tasks may be found in the
 **GSM:**
 
 To generate and evaluated answer for GSM problems through Xolver, cd into the gsm directory and run:
-	`gsm.py`
+	`python gsm.py`
 
 You can download the GSM dataset [here](https://huggingface.co/datasets/openai/gsm8k)
 
  **AIME:**
 
 To generate and evaluated answer for AIME problems through Xolver, cd into the aime directory and run:
-	`aime.py`
+	`python aime.py`
 
 You can download the AIME datasets [here](https://huggingface.co/datasets/HuggingFaceH4/aime_2024) and [here](https://huggingface.co/datasets/yentinglin/aime_2025) 
 
 **MATH:**
 
 To generate and evaluated answer for MATH problems through Xolver, cd into the math directory and run:
-	`math.py`
+	`python math.py`
 
  You can download the MATH dataset [here](https://huggingface.co/datasets/di-zhang-fdu/MATH500)
 
  **LiveCodeBench:**
 
 To generate and evaluated answer for LiveCodeBench problems through Xolver, cd into the lcb directory and run:
-	`lcb.py`
+	`python lcb.py`
 
  You can download the LiveCodeBench dataset [here](https://huggingface.co/datasets/livecodebench/code_generation)
 
