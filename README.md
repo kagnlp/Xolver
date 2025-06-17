@@ -30,31 +30,20 @@ To prepare a new conda or python virtual environment, run:
 To generate and evaluated answer for GSM problems through Xolver, run:
 	`python gsm/gsm.py`
 
-You can download the GSM dataset [here](https://huggingface.co/datasets/openai/gsm8k)
-
  **AIME:**
 
 To generate and evaluated answer for AIME problems through Xolver, run:
 	`python aime/aime.py`
-
-You can download the AIME datasets [here](https://huggingface.co/datasets/HuggingFaceH4/aime_2024) and [here](https://huggingface.co/datasets/yentinglin/aime_2025) 
 
 **MATH:**
 
 To generate and evaluated answer for MATH problems through Xolver, run:
 	`python math/math.py`
 
- You can download the MATH dataset [here](https://huggingface.co/datasets/di-zhang-fdu/MATH500)
-
  **LiveCodeBench:**
 
 To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
 	`python lcb/lcb.py`
-
- You can download the LiveCodeBench dataset [here](https://huggingface.co/datasets/livecodebench/code_generation)
-
-
-You can download the math external retrieval corpus [here](https://huggingface.co/datasets/nvidia/OpenMathReasoning) and the code external retrieval corpus [here](https://huggingface.co/datasets/krarit/retrivcod)
 
 If you would like to cite the paper, here is a bibtex file:
 ```
