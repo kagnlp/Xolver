@@ -18,6 +18,9 @@ except LookupError:
     print("Downloading 'punkt_tab' resource for NLTK...")
     nltk.download('punkt_tab')
 
+test = load_dataset("di-zhang-fdu/MATH500")
+episodic_memory = load_dataset("nvidia/OpenMathReasoning")
+
 # ========== PROMPT TEMPLATES ==========
 PLANNER_PROMPT = """
 You are a planner to solve a {task_type} problem. Here is the problem for which you have to plan:
