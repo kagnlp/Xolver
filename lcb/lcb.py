@@ -18,7 +18,7 @@ try:
     nltk.data.find('tokenizers/punkt_tab/english/')
 except LookupError:
     print("Downloading 'punkt_tab' resource for NLTK...")
-    nltk.download('punkt_tab')
+    nltk.download('punkt_tab') 
 
 # ========== PROMPT TEMPLATES ==========
 PLANNER_PROMPT = """
