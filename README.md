@@ -18,9 +18,7 @@ To clone the project, run:
  To prepare a new conda or python virtual environment, run:
  
 	pip install -r requirements.txt
-
- To prepare with API key, change ***utils***
-
+ 
 The code for running GSM, AIME, MATH and LiveCodeBench tasks may be found in the following subfolders
 
 * ./gsm/ contains code for running GSM
@@ -30,11 +28,15 @@ The code for running GSM, AIME, MATH and LiveCodeBench tasks may be found in the
 
 **GSM:**
 
+To prepare GSM with API key, change [here](https://github.com/kagnlp/Xolver/blob/main/gsm/gsm.py#L95)
+
 To generate and evaluated answer for GSM problems through Xolver, run:
 
 	cd ./gsm python gsm.py
 
  **AIME:**
+
+To prepare AIME with API key, change [here](https://github.com/kagnlp/Xolver/blob/main/aime/aime.py#L95)
 
 To generate and evaluated answer for AIME problems through Xolver, run:
 
@@ -42,11 +44,15 @@ To generate and evaluated answer for AIME problems through Xolver, run:
 
 **MATH:**
 
+To prepare MATH with API key, change [here](https://github.com/kagnlp/Xolver/blob/main/math/math.py#L107)
+
 To generate and evaluated answer for MATH problems through Xolver, run:
 
 	cd ./math python math.py
 
  **LiveCodeBench:**
+
+To prepare LiveCodeBench with API key, change [here](https://github.com/kagnlp/Xolver/blob/main/lcb/lcb.py#L85)
 
 To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
 
@@ -54,7 +60,7 @@ To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
 
  **Without Memory**
  
- To generate and evaluated answer for tasks through Xolver without memory, remove ***episodic memory*** and run similarly:
+ To generate and evaluated answer for tasks through Xolver without memory, remove ***EPISODIC MEMORY*** and run similarly:
 
  	cd ./task python task.py
 
