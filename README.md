@@ -1,6 +1,6 @@
 # Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team
 
-### [Project Page](https://kagnlp.github.io/xolver.github.io/) | [Paper]()
+### [Project Page](https://kagnlp.github.io/xolver.github.io/) | [Paper](https://arxiv.org/abs/2506.14234)
 
 This is a preliminary implementation of the paper "Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team". More tasks and settings will be released soon. You may see some additional Xolver logs [here](https://drive.google.com/drive/folders/1O-KYcgQcEniIGfxbUcQjyZLjAzUJkr0s?usp=sharing).
 
@@ -11,13 +11,15 @@ This is a preliminary implementation of the paper "Xolver: Multi-Agent Reasoning
 
 ## Running Project
 
-Clone the project, run:
+To clone the project, run:
 
 	git clone https://github.com/kagnlp/Xolver && cd Xolver
 
- Prepare a new conda or python virtual environment, run:
+ To prepare a new conda or python virtual environment, run:
  
 	pip install -r requirements.txt
+
+ To prepare with API key, change ***utils***
 
 The code for running GSM, AIME, MATH and LiveCodeBench tasks may be found in the following subfolders
 
@@ -52,7 +54,7 @@ To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
 
  **Without Memory**
  
- To generate and evaluated answer for tasks through Xolver without memory, remove episodic memory and run similarly:
+ To generate and evaluated answer for tasks through Xolver without memory, remove ***episodic memory*** and run similarly:
 
  	cd ./task python task.py
 
