@@ -11,11 +11,11 @@ This is a preliminary implementation of the paper "Xolver: Multi-Agent Reasoning
 
 ## Running Project
 
-To clone the project, run:
+Clone the project, run:
 
 	git clone https://github.com/kagnlp/Xolver && cd Xolver
 
- To prepare a new conda or python virtual environment, run:
+ Prepare a new conda or python virtual environment, run:
  
 	pip install -r requirements.txt
 
