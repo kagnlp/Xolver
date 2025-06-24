@@ -19,7 +19,7 @@ except LookupError:
     print("Downloading 'punkt_tab' resource for NLTK...")
     nltk.download('punkt_tab')
 
-test = load_dataset("HuggingFaceH4/aime_2024")
+test = load_dataset("HuggingFaceH4/aime_2024") # load_dataset("yentinglin/aime_2025", "default")
 episodic_memory = load_dataset("nvidia/OpenMathReasoning")
 
 # ========== PROMPT TEMPLATES ==========
