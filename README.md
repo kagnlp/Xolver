@@ -60,7 +60,7 @@ To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
 
  **Without Memory**
  
- To generate and evaluated answer for tasks through Xolver without memory (retrieval corpus should be static in this stage), remove ***EPISODIC MEMORY*** and run similarly:
+ To generate and evaluated answer for tasks through Xolver (-) (static retrieval corpus), remove ***EPISODIC MEMORY*** and run similarly:
 
  	cd ./task python task.py
 
