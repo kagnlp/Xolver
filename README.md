@@ -30,6 +30,10 @@ The code for running GSM, AIME, MATH and LiveCodeBench tasks may be found in the
 
 To prepare GSM with API key, change [here](https://github.com/kagnlp/Xolver/blob/main/gsm/gsm.py#L95)
 
+To prepare GSM with self-retrieval, [here](https://github.com/kagnlp/Xolver/blob/main/gsm/gsm.py#L239) should be empty
+
+To prepare GSM with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/gsm/gsm.py#L309) to "None"
+
 To generate and evaluated answer for GSM problems through Xolver, run:
 
 	cd ./gsm python gsm.py
@@ -37,6 +41,10 @@ To generate and evaluated answer for GSM problems through Xolver, run:
  **AIME:**
 
 To prepare AIME with API key, change [here](https://github.com/kagnlp/Xolver/blob/main/aime/aime.py#L95)
+
+To prepare AIME with self-retrieval, [here](https://github.com/kagnlp/Xolver/blob/main/aime/aime.py#L233) should be empty
+
+To prepare AIME with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/aime/aime.py#L303) to "None"
 
 To generate and evaluated answer for AIME problems through Xolver, run:
 
@@ -46,6 +54,10 @@ To generate and evaluated answer for AIME problems through Xolver, run:
 
 To prepare MATH with API key, change [here](https://github.com/kagnlp/Xolver/blob/main/math/math.py#L107)
 
+To prepare MATH with self-retrieval, [here](https://github.com/kagnlp/Xolver/blob/main/math/math.py#L245) should be empty
+
+To prepare MATH with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/math/math.py#L315) to "None"
+
 To generate and evaluated answer for MATH problems through Xolver, run:
 
 	cd ./math python math.py
@@ -53,6 +65,10 @@ To generate and evaluated answer for MATH problems through Xolver, run:
  **LiveCodeBench:**
 
 To prepare LiveCodeBench with API key, change [here](https://github.com/kagnlp/Xolver/blob/main/lcb/lcb.py#L85)
+
+To prepare LiveCodeBench with self-retrieval, [here](https://github.com/kagnlp/Xolver/blob/main/lcb/lcb.py#L305) should be empty
+
+To prepare LiveCodeBench with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/lcb/lcb.py#L376) to "None"
 
 To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
 
