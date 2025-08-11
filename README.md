@@ -32,7 +32,7 @@ To prepare GSM with API key, change [here](https://github.com/kagnlp/Xolver/blob
 
 To prepare GSM with self-retrieval, [here](https://github.com/kagnlp/Xolver/blob/main/gsm/gsm.py#L239) should be empty
 
-To prepare GSM with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/gsm/gsm.py#L309) to "None"
+To prepare GSM with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/gsm/gsm.py#L309) to "None" followed by the above statement
 
 To generate and evaluated answer for GSM problems through Xolver, run:
 
@@ -44,7 +44,7 @@ To prepare AIME with API key, change [here](https://github.com/kagnlp/Xolver/blo
 
 To prepare AIME with self-retrieval, [here](https://github.com/kagnlp/Xolver/blob/main/aime/aime.py#L233) should be empty
 
-To prepare AIME with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/aime/aime.py#L303) to "None"
+To prepare AIME with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/aime/aime.py#L303) to "None" followed by the above statement
 
 To generate and evaluated answer for AIME problems through Xolver, run:
 
@@ -56,7 +56,7 @@ To prepare MATH with API key, change [here](https://github.com/kagnlp/Xolver/blo
 
 To prepare MATH with self-retrieval, [here](https://github.com/kagnlp/Xolver/blob/main/math/math.py#L245) should be empty
 
-To prepare MATH with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/math/math.py#L315) to "None"
+To prepare MATH with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/math/math.py#L315) to "None" followed by the above statement
 
 To generate and evaluated answer for MATH problems through Xolver, run:
 
@@ -68,7 +68,7 @@ To prepare LiveCodeBench with API key, change [here](https://github.com/kagnlp/X
 
 To prepare LiveCodeBench with self-retrieval, [here](https://github.com/kagnlp/Xolver/blob/main/lcb/lcb.py#L305) should be empty
 
-To prepare LiveCodeBench with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/lcb/lcb.py#L376) to "None"
+To prepare LiveCodeBench with no retrieval, change [here](https://github.com/kagnlp/Xolver/blob/main/lcb/lcb.py#L376) to "None" followed by the above statement
 
 To generate and evaluated answer for LiveCodeBench problems through Xolver, run:
 
