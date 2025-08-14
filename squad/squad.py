@@ -64,7 +64,7 @@ Also here is the leading responses with execution results from the response stor
 
 Think carefully about where you went wrong, relating with responses in the response store. Then, try to
 fix the solution producing a thought later reply with a solution to be executed and judged again. You can
-integrate a Python tool to execute the calculations while replying your solution if required.
+integrate required tools while replying your solution if required.
 
 Make sure to wrap your final answer in \\boxed{{answer}} block with the entire solution (in the final answer step).
 """
