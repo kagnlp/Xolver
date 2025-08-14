@@ -405,6 +405,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# Commented out IPython magic to ensure Python compatibility.
-# %pip install rank_bm25
