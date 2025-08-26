@@ -9,6 +9,9 @@ This is a preliminary implementation of the paper "Xolver: Multi-Agent Reasoning
 [Md Kishor Morol](https://scholar.google.com/citations?user=pjn3jg4AAAAJ&hl=en),
 [Md Rizwan Parvez](https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en)
 
+## News
+- 📢 We have added code (unlceaned) for additional numerous agentic benchmarks including 2wiki, Bamboogle, BrowseComp, GAIA, GPQA, Humanities Last Exam (HLE), and SQUAD datasets. We will include the SWE-Bench and OS-World soon. On all of these benchamrks, Xolver achives a new set of SoTA results.
+
 ## Running Project
 
 To clone the project, run:
