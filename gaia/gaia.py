@@ -105,11 +105,10 @@ client = openai.OpenAI(
   api_key= ''  # Replace with your actual key
 )
 
-def call_openai(messages: List[Dict[str, str]], model="gpt-4", temperature=0.2):
+def call_openai(messages: List[Dict[str, str]], model="o4-mini"):
     response = client.chat.completions.create(
         model=model,
         messages=messages,
-        temperature=temperature,
     )
     return response.choices[0].message.content
 
@@ -236,8 +235,8 @@ class SharedMemory:
 # ========== MAIN LOOP ==========
 
 def main():
-    agents = 2
-    rounds = 2
+    agents = 1
+    rounds = 1
     m = agents
 
     episodic_memory = EpisodicMemory(memory_file="/content/episodic_memory.json")
@@ -252,9 +251,9 @@ def main():
     all_responses = []
 
     for data in questions[:1]:
-        problem = data['question']
-        answer = data.get('answer', None)
-        task_type = "multi-modal"
+        problem = data['Question']
+        answer = data.get('Final answer', None) 
+        task_type = "multi-modal qa" 
         shared_memory = SharedMemory(m)
         print(f"\n=== Solving problem ===\n{problem}\n")
 
