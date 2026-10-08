@@ -2,15 +2,12 @@
 
 ### [Project Page](https://kagnlp.github.io/xolver.github.io/) | [Paper](https://arxiv.org/abs/2506.14234)
 
-This is a preliminary implementation of the paper "Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team". More tasks and settings will be released soon. You may see some additional Xolver logs [here](https://drive.google.com/drive/folders/1O-KYcgQcEniIGfxbUcQjyZLjAzUJkr0s?usp=sharing).
+This is a preliminary implementation of the paper "Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team". More tasks and settings will be released soon.
 
 [Md Tanzib Hosain](https://scholar.google.com/citations?user=3YexY9gAAAAJ&hl=en),
 [Salman Rahman](https://scholar.google.com/citations?user=vr7uTc8AAAAJ&hl=en&oi=ao),
 [Md Kishor Morol](https://scholar.google.com/citations?user=pjn3jg4AAAAJ&hl=en),
 [Md Rizwan Parvez](https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en)
-
-## News
-- 📢 We have added code (unlceaned) for more additional agentic benchmarks including 2wiki, Bamboogle, BrowseComp, GAIA, GPQA, Humanities Last Exam (HLE), OS-World, and SQUAD datasets in the [test brunch](https://github.com/kagnlp/Xolver/tree/test). We will include the SWE-Bench soon. On all of these benchamrks, Xolver achives a new set of SoTA results.
 
 ## Running Project
 
